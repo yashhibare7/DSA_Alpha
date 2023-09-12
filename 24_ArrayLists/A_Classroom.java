@@ -10,5 +10,18 @@ public class A_Classroom {
         List.add(5);
         System.out.println(List);
 
+        int element = List.get(1);
+        System.out.println(element);
+
+        List.remove(3);
+        System.out.println(List);
+
+        List.set(1, 10);
+        System.out.println(List);
+
+        System.out.println(List.contains(10));
+        System.out.println(List.contains(11));
+
+        System.out.println(List.size());
     }
 }
