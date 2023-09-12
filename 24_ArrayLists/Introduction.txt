@@ -1,0 +1,9 @@
+Introduction of ArrayLists
+
+Array                               ArrayLists
+1.Fixed Size                        1.Dynamic Size
+
+2.Primitive data types              2.primitive data types
+  can be stored                       can't be store directly
+
+
