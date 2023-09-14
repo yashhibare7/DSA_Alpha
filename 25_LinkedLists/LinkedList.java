@@ -57,6 +57,7 @@ public class LinkedList {
 
     }
 
+    
     //This is use for the add the "data" at the position "index"
     public void add(int index,int data){
         if(index==0){
