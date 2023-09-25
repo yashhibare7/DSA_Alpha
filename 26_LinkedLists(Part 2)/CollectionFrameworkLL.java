@@ -7,7 +7,7 @@ public class CollectionFrameworkLL {
         ll.addLast(2);
         ll.addFirst(0);
         System.out.println(ll);
-        ll.removeLast();
+        ll.removeFirst();
         ll.removeLast();
         System.out.println(ll);
     }
