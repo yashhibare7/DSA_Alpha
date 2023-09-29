@@ -38,6 +38,26 @@ public class DoublyLL {
         }
         System.out.println("null");
     }
+
+    //remove
+    public int removeFirst(){
+        if(head == null){
+            System.out.println("DLL is empty");
+            return Integer.MIN_VALUE;
+        }
+
+        if(size == 1){
+            int value = head.data;
+            head = tail = null;
+            size--;
+            return value;
+        }
+        int value = head.data;
+        head = head.next;
+        head.prev = null;
+        size--;
+        return value;
+    }
     public static void main(String args[]){
         DoublyLL dll = new DoublyLL();
         dll.addFirst(5);
@@ -46,6 +66,10 @@ public class DoublyLL {
         dll.addFirst(2);
         dll.addFirst(1);
 
+        dll.print();
+        System.out.println(size);
+
+        dll.removeFirst();
         dll.print();
         System.out.println(size);
     }
