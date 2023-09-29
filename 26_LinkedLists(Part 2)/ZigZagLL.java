@@ -96,11 +96,25 @@ public class ZigZagLL {
         Node nextL, nextR;
 
         //alt merge - Zig Zag merge
-        while()
+        while(left != null && right != null){
+            nextL = left.next;
+            left.next = right;
+            nextR = right.next;
+            right.next = nextL;
+
+            left = nextL;
+            right = nextR;
+        }
     }
     public static void main(String args[]){
-
+        ZigZagLL ll = new ZigZagLL();
+        ll.addFirst(5);
+        ll.addFirst(4);
+        ll.addFirst(3);
+        ll.addFirst(2);
+        ll.addFirst(1);
+        ll.print();
+        ll.zigzag();
+        ll.print();
     }
 }
-
-//T425G71
