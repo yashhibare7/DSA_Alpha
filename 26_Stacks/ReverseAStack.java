@@ -34,8 +34,9 @@ public class ReverseAStack {
         s.push(1);
         s.push(2);
         s.push(3);
-
+        //3 2 1
         revStack(s);
         printStack(s);
+        //1 2 3
     }
 }
