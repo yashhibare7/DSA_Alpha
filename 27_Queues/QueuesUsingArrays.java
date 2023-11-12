@@ -34,7 +34,7 @@ public class QueuesUsingArrays {
             for(int i=0;i<rear;i++){
                 arr[i] = arr[i+1];
             }
-            rear = rear -1;
+            rear = rear -1;  
             return front;
         }
 
