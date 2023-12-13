@@ -1,0 +1,20 @@
+Operations
+
+   Add O(1)
+   Enque
+
+   Remove O(1)
+   Dequeue
+
+   Peek O(1)
+   Front
+
+Implementation
+
+   Array                LinkedList               Stack
+   
+   Fixed Size
+   "n"
+
+   Remove 
+   O(n)
