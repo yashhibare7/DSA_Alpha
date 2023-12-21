@@ -37,7 +37,6 @@ public class QueueUsingTwoStacks {
             }
 
             return s1.pop();
-
         }
 
         //peek
