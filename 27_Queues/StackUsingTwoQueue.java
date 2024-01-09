@@ -6,10 +6,12 @@ public class StackUsingTwoQueue {
         static Queue<Integer> q1 = new LinkedList<>();
         static Queue<Integer> q2 = new LinkedList<>();
 
+        // Check Queue is empty or not
         public static boolean isEmpty() {
             return q1.isEmpty() && q2.isEmpty();
         }
 
+        // data queue madhe add karaycha aahe tevha
         public static void push(int data){
             if (!q1.isEmpty()) {
                 q1.add(data);
