@@ -14,7 +14,7 @@ public class StackUsingTwoQueue {
         // data queue madhe add karaycha aahe tevha
         public static void push(int data){
             if (!q1.isEmpty()) {
-                q1.add(data);
+                q1.add(data); 
             } else {
                 q2.add(data);
             }
