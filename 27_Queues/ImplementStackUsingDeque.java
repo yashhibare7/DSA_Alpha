@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.LinkedList;
 
-public class ImpelementStackUsingDeque{
+public class ImplementStackUsingDeque{
     static class Stack {
         Deque<Integer> deque = new LinkedList<>();
 
