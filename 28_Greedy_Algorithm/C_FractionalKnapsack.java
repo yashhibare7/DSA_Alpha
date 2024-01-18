@@ -29,10 +29,11 @@ public class C_FractionalKnapsack{
 
         for(int i=ratio.length-1;i>=0;i--){
             int idx = (int)ratio[i][0];
-            if (capacity >= weight[idx]) {
+            if (capacity >= weight[idx]) { //Include full item
                 finalVal += val[idx];
                 capacity -= weight[idx];
             } else {
+                //
                 finalVal += (ratio[i][1] * capacity);
                 capacity = 0;
                 break;
