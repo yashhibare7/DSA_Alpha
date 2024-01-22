@@ -13,7 +13,7 @@
 
 
 import java.util.*;
-public class BuildTreePreOrder {
+public class A_BuildTreePreOrder {
     static class Node {
         int data;
         Node left;
