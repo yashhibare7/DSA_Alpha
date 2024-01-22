@@ -1,0 +1,20 @@
+      Binary Tree
+         |
+         |
+         |
+        \ /
+         |
+    Hierarchical
+    Data Structure          In binary tree at max 2 children
+
+
+                                          Pop Quiz
+                                          a. Children of 4: 7,8
+                                          b. No. of leaves: 4
+               1                          c. Parent of 6: 3
+             /   \                        d. Level of 2: 2
+            2     3                       e. Subtree of 1 & 2:
+           / \     \                      f. Ancestors of 8:
+          4   5     6
+         / \         \
+        7   8         9
