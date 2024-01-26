@@ -24,12 +24,35 @@ public class C_SubtreeOfAnotherTree {
         }
     }
 
-    public static boolean isSubtree(Node root, Node subRoot){
-        if (subRoot == null){
+    public static boolean isIdentical(Node node,Node subRoot){
+        if (node == null && subRoot == null) {
             return true;
+        } else if (node == null || subRoot == null || node.data != subRoot.data) {
+            return false;
         }
+
+        if (!isIdentical(node.left, subRoot.left)) {
+            return false;
+        }
+        if (!isIdentical(node.right, subRoot.right)) {
+            return false;
+        }
+        return true;
     }
-    public static void main(String args){
+
+    public static boolean isSubtree(Node root, Node subRoot){
+        if (root == null){
+            return false;
+        }
+        if (root.data == subRoot.data) {
+            if (isIdentical(root,subRoot)) {
+                return true;
+            }
+        }
+
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+    }
+    public static void main(String args[]){
         /*
          tree                       
              1                           
@@ -57,5 +80,6 @@ public class C_SubtreeOfAnotherTree {
           subRoot.left = new Node(4);
           subRoot.right = new Node(5);
 
+          System.out.println(isSubtree(root, subRoot));
     }
 }
