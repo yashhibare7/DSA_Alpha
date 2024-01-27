@@ -13,7 +13,7 @@
 
 
 import java.util.*;
-public class KthLevelOfTree {
+public class A_KthLevelOfTree {
     static class Node{
         int data;
         Node left,right;
