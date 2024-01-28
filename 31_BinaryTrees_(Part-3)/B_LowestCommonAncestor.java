@@ -52,7 +52,7 @@ public class B_LowestCommonAncestor {
         getPath(root, n1, path1);
         getPath(root, n2, path2);
 
-        //last common ancestor
+        //last common 
         int i = 0;
         for(; i<path1.size() && i<path2.size(); i++){
             if (path1.get(i) != path2.get(i)) {
