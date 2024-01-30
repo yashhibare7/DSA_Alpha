@@ -1,0 +1,44 @@
+Binary Search Tree (BST)
+
+           S
+         /   \
+        B     T 
+
+        Binary Search Tree is use for the  searching of data in logarithmic time complexity. (Use for minimum time complexity)
+
+        O(N) ----> N for the no. of nodes
+
+What is a BST?
+
+        *Binary Tree
+                                                                    4
+        a.Left Subtree Nodes < Root                               /   \
+        b.Right Subtree Nodes > Root                             2     5
+        c.Left & Right Subtree are also                        /  \     \
+          BST with no duplicates                              1    3     6
+
+Special Property
+
+        Inorder Traversal Of BST gives a sorted
+        sequence i.e., smallest element at root, then 1,2,...,n-1,largest element in BST.
+
+        Eg. 1, 2, 3, 4, 5, 6
+
+Insertion:
+    - Find the position to insert new node by searching for the key in BST.
+    - If not found, create a new Node and make it as left or right child of the parent node.
+    - Repeat until we reach the leaf node.
+
+Deletion :
+    - Case 1: If the node has no child, simply remove that node.
+    - Case 2: If the node has one child, replace the node with its non empty child.
+    - Case 3: If the node has two children, find the inorder successor/predecessor and replace the node with it's successor/predecessor. Then
+    - Case 3: If the node has two children, find the inorder successor/predecessor and replace the node with its successor/predecessor.
+    - Case 3: If the node has two children, find the inorder successor/predecessor and replace the node with its successor/predecessor.
+    - Case 3: If the node has two children, find the inorder successor/predecessor and swap the values of the keys. Then delete the successor/predecess
+    - Case 3: If the node has two children, find the inorder successor/predecessor and copy its value to the current node and delete the successor/predecess
+    - Case 3: If the node has two children, find the inorder successor/predecessor and copy its value to the current node and delete the successor/predecess
+    - Case 3: If the node has two children, find the inorder successor/predecessor and copy its value to the current node and delete the successor/predecess
+    - Case 3: If the node has two children, find the inorder successor/predecessor and replace the node with it's successor/predecessor. Then delete the successor/
+    - Case 3: If the node has two children, find the inorder successor/predecessor and swap the values of the keys of the nodes. Then delete the successor/
+   
