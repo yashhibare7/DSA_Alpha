@@ -29,5 +29,7 @@ Insertion:
     - If not found, create a new Node and make it as left or right child of the parent node.
     - Repeat until we reach the leaf node.
 
+Strategy
 
+     Most porblem will be solved by using recursion i.e by dividing into subproblems & making recursive calls on    subtrees.
    
