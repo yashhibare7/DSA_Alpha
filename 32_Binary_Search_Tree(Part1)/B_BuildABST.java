@@ -2,6 +2,14 @@
  Build a BST
 
  values[] = {5,1,3,4,2,7}
+
+                      5
+                    /   \
+                   1     7
+                    \
+                     3
+                   /   \
+                  2     4 
  */
 public class B_BuildABST {
     static class Node{
