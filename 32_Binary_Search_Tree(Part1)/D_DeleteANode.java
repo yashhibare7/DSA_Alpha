@@ -33,7 +33,17 @@
                 /  \       \                            Eg: 10, 11 After delete the node java garbage collector
                3    6       11 <--                             remove the value
              /  \             \
-            1    4             14               
+            1    4             14 
+            
+            
+            Case 3: Two children
+                 -->  8
+                    /   \                               Replace value with inorder successor
+              --> 5      10                             Delete the node for inorder successor
+                /  \       \                            
+           --> 3    6       11                          *inorder successor always has 0 or 1 child
+             /  \             \
+            1    4             14 
  */
 
 public class D_DeleteANode {
