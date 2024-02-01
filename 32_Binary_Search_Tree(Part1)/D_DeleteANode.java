@@ -1,3 +1,41 @@
+/*
+ Delete A Node
+
+                      8
+                    /   \
+                  5      10
+                /  \       \
+               3    6       11
+             /  \             \
+            1    4             14
+
+
+            Cases
+            1. No child (leaf Node)
+            2. One child
+            3. Two children
+
+               
+            Case 1: No Child (Leaf Node)
+                      8
+                    /   \                               Delete Node & Return NUll to parent
+                  5      10                        
+                /  \       \                            Eg: 1, 4, 6, 14 After delete the node java garbage collector
+               3    6 <--    11                              remove the value
+             /  \             \
+        --> 1    4 <--          14 <--              
+
+
+            Case 2: one Child
+                      8
+                    /   \                               Delete Node & replace with child node
+                  5      10 <--                       
+                /  \       \                            Eg: 10, 11 After delete the node java garbage collector
+               3    6       11 <--                             remove the value
+             /  \             \
+            1    4             14               
+ */
+
 public class D_DeleteANode {
     static class Node{
         int data;
