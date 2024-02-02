@@ -46,7 +46,6 @@
             1    4             14 
  */
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class D_DeleteANode {
     static class Node{
