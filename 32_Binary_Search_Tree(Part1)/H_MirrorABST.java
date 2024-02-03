@@ -1,3 +1,10 @@
+/*
+                      8
+                    /   \
+                  5      10
+                /  \       \
+               3    6       11
+ */
 public class H_MirrorABST {
     static class Node{
         int data;
@@ -30,6 +37,19 @@ public class H_MirrorABST {
         System.out.print(root.data + " ");
         inorder(root.right);
     }
+
+    public static Node mirror(Node root){
+        if (root == null) {
+            return null;
+        }
+
+        Node leftmirror = mirror(root.left);
+        Node righmirror = mirror(root.right);
+        root.left = righmirror;
+        root.right = leftmirror;
+
+        return root;
+    }
     public static void main(String args[]){
         int values[] = {8,5,3,1,4,6,10,11,14};
         Node root = null;
@@ -40,5 +60,8 @@ public class H_MirrorABST {
 
         inorder(root);
         System.out.println();
+
+        mirror(root);
+        inorder(root);
     }
 }
