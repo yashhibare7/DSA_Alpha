@@ -54,7 +54,7 @@ public class D_Merge2BST {
         int i=0, j=0;
         ArrayList<Integer> finalarr  = new ArrayList<>();
         while (i<arr1.size() && j<arr2.size()) {
-            if (arr1.get(i) <=  arr1.get(j)) {
+            if (arr1.get(i) <=  arr2.get(j)) {
                 finalarr.add(arr1.get(i));
                 i++;
             } else {
