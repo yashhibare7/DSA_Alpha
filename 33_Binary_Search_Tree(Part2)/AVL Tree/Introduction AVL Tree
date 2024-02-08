@@ -1,0 +1,36 @@
+
+AVL Trees
+- Self-balancing BST
+
+  -- Property: |HL - HR| < 2
+
+  Balanced                Unbalanced
+
+     8                        5
+   /   \                       \
+  5     10                      6
+ / \      \                      \
+3   6      11                     8
+                                   \     
+                                    10
+                                      \
+                                       11
+
+Rotation (Total Possible combination of BST is n!)
+   
+   30,20,10          30,10,20        10,20,30           10,30,20          --->    All are Unbalanced Tree
+     
+     30                 30              10                 10
+    /                   /                \                  \
+   20                  10                 20                 30
+  /                     \                   \                /
+ 10                      20                  30             20
+
+
+   20,30,10       20,10,30          ---> All are Balanced Tree
+     
+      20            20
+     /  \          /  \
+    10   30       10   30
+
+    Total No of possible combination of above example of BST is n! = 3! = 6
