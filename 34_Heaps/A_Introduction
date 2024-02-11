@@ -3,3 +3,11 @@ Heaps/
 
  #Concept OF Priority Queues:-
    
+
+ #Priority Queues in JCF
+
+    add() O(logn)
+
+    remove() O(logn)
+
+    peek() O(1)  
