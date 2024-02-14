@@ -1,0 +1,16 @@
+Heap
+
+   Binary Tree
+     at most 2 children                              1
+                                                   /   \
+                                                  2     4
+                                                /   \
+                                               5    10
+
+   Complete Binary Tree
+     CBT is a BT in which all the levels are completely filled except
+     possibly the last one, which is filled from the left to right.
+
+   Heap Order Property
+     Children >= Parent(maxHeap)
+     Children <= Parent(maxHeap)                                                 
