@@ -1,0 +1,14 @@
+
+ Heap as an array/arraylist
+
+                 2    <-- idx 1
+               /  \
+ idx 2   --> 3     4  <-- idx 3
+           /  \
+idx 4 --> 5   10 <-- idx 5
+
+imp formula
+   (node) idx = i
+   left child = 2i+1
+   right child = 2i+2
+ 
