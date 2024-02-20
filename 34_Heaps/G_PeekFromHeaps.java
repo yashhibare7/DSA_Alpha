@@ -41,6 +41,7 @@ public class G_PeekFromHeaps {
             }
 
             if (minIdx != i) {
+                
                 //swap
                 int temp = arr.get(i);
                 arr.set(i, arr.get(minIdx));
@@ -51,7 +52,7 @@ public class G_PeekFromHeaps {
         }
 
         public int remove(){
-            
+
             int data = arr.get(0);
 
             //swap 1 - swap first & last
