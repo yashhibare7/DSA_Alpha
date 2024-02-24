@@ -1,7 +1,7 @@
 Heaps/
  Priority Queues
 
- #Concept OF Priority Queues :-
+ #Concept OF Priority Queues:-
    
 
  #Priority Queues in JCF
@@ -13,6 +13,6 @@ Heaps/
     peek() O(1)  
 
 
- #Format of the priority queue : 
+ #Format of the priority queue: 
     
     PriorityQueue <Integer> pq = new PriorityQueue<>();
