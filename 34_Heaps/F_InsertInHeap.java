@@ -9,7 +9,7 @@ public class F_InsertInHeap{
             arr.add(data);
 
             int x = arr.size()-1; //x is child index
-            int par = (x-1)/2; //par index
+            int par = (x-1)/2; //par index  (par means parent)
 
             while (arr.get(x) < arr.get(par)) {
                 //swap
