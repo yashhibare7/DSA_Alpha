@@ -14,3 +14,14 @@ imp formula
    left child = 2i+1
    right child = 2i+2
  
+Heapify O(logn)
+              
+              5
+            /   \
+           3     4
+
+                    Heapify ->   root = i (i = 0)
+                                 left = 2i + 1 ( (2(0) + 1) = 1 )
+                                 right = 2i + 2 ( (2(0) + 2) = 2 )
+
+          min = (i, 2i+1, 2i+2)                       
