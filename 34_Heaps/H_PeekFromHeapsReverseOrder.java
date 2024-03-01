@@ -9,8 +9,8 @@ public class H_PeekFromHeapsReverseOrder {
             //add at last idx
             arr.add(data);
 
-            int x = arr.size()-1; //x is child index
-            int par = (x-1)/2; //par index
+            int x = arr.size()-1;  //x is child index
+            int par = (x-1)/2;  //par index
 
             while (arr.get(x) > arr.get(par)) {
                 //swap
