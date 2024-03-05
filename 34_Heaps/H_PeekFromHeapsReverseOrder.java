@@ -41,7 +41,6 @@ public class H_PeekFromHeapsReverseOrder {
             }
 
             if (maxIdx != i) {
-                
                 //swap
                 int temp = arr.get(i);
                 arr.set(i, arr.get(maxIdx));
