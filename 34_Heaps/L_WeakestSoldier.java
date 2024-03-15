@@ -15,6 +15,7 @@
       1 0 0 0
       1 0 0 0
  */
+
 public class L_WeakestSoldier {
   static class Row implements Comparable<Row> {
     int soldiers;
