@@ -28,7 +28,11 @@ public class L_WeakestSoldier {
 
     @Override
     public int compareTo(Row r2){
-      
+      if(this.soldiers == r2.soldiers){
+        return this.idx - r2.idx;
+      } else {
+        
+      }
     }
   }
     public static void main(String args[]) {
