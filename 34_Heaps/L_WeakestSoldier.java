@@ -16,6 +16,8 @@
       1 0 0 0
  */
 
+import java.util.PriorityQueue;
+
 public class L_WeakestSoldier {
   static class Row implements Comparable<Row> {
     int soldiers;
@@ -31,7 +33,7 @@ public class L_WeakestSoldier {
       if(this.soldiers == r2.soldiers){
         return this.idx - r2.idx;
       } else {
-        
+        return this.soldiers - r2.soldiers;
       }
     }
   }
@@ -42,5 +44,7 @@ public class L_WeakestSoldier {
                       {1, 0, 0, 0}};
 
       int k = 2;
+
+      PriorityQueue<Row> pq = new PriorityQueue<>(); 
     }
 }
