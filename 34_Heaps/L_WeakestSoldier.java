@@ -46,5 +46,12 @@ public class L_WeakestSoldier {
       int k = 2;
 
       PriorityQueue<Row> pq = new PriorityQueue<>(); 
+
+      for( int i=0; i<army.length; i++){
+        int count=0;
+        for(int j=0;i<army[0].length;j++){
+          count += army[i][j] == 1 ? 1 : 0;
+        }
+      }
     }
 }
