@@ -49,9 +49,14 @@ public class L_WeakestSoldier {
 
       for( int i=0; i<army.length; i++){
         int count=0;
-        for(int j=0;i<army[0].length;j++){
+        for(int j=0; j<army[0].length; j++){
           count += army[i][j] == 1 ? 1 : 0;
         }
+        pq.add(new Row(count, i));
+      }
+
+      for(int i=0; i<k; i++){
+        System.out.println("R"+pq.remove().idx);
       }
     }
 }
