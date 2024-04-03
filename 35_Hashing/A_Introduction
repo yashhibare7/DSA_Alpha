@@ -1,0 +1,43 @@
+# Hashing
+
+   |
+   |
+   |                     |-------> Hashmap
+   |-----> Map ----------|-------> Linked Hashmap
+   |                     |-------> Treemap
+   |
+   |
+   |                    |--------> Hashset
+   |-----> Set ---------|--------> Linked Hashset
+                        |--------> TreeSet
+
+
+   # Hashmap    (import java.util.HashMap)
+
+   (Key, value)   Always key unique in Hashmap
+
+      -- Time Complexity
+
+         1. insert ---|
+         2. remove ---|----> O(1)
+         3. search ---|       
+
+      -- Example
+
+         Country         Population
+
+         China            150
+         India            100
+         US               50
+         Nepal            5
+
+         In this example country is key and population is value
+
+   # HashMap Operations   
+
+      -- put(key, value)   O(1)
+      -- get(key)          O(1)
+      -- containsKey(key)  O(1)
+      -- remove(key)       O(1)
+
+      At the time of creation of Hashmap we can write has
