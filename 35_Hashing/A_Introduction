@@ -40,4 +40,14 @@
       -- containsKey(key)  O(1)
       -- remove(key)       O(1)
 
-      At the time of creation of Hashmap we can write has
+      At the time of creation of Hashmap we can write has 
+      Example:- country -> string , population -> int
+                
+               HashMap create :- HashMap<String,Integer> hm = new HashMap<>();
+
+               India 100
+               US    50
+               China 150
+
+               put(India,120);
+               India 120
