@@ -4,7 +4,7 @@ public class C_Factorial {
             return 1;
         }
         int fum1 = fact(n-1);
-        int fn = n * fact(n-1);
+        int fn = n * fum1;
         return fn;
     }
     public static void main(String args[]){
