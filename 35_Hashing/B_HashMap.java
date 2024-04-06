@@ -12,6 +12,9 @@ public class B_HashMap{
 
         System.out.println(hm);
 
+        //Size
+        System.out.println(hm.size());
+
         //Get - O(1)
         int population = hm.get("India");
         System.out.println(population);
@@ -21,5 +24,13 @@ public class B_HashMap{
         //ContainsKey - O(1)
         System.out.println(hm.containsKey("India"));  //true
         System.out.println(hm.containsKey("Indonesia")); //false
+
+        //Remove
+        System.out.println(hm.remove("China"));
+        System.out.println(hm);
+
+        //IsEmpty
+        hm.clear();
+        System.out.println(hm.isEmpty());
     }
 }
