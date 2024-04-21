@@ -1,0 +1,33 @@
+Graphs
+   |---> Network of nodes
+   
+       9
+      /
+ 1   4   8 <--- vertex (vertices)
+  \ / \ / <--- edge
+   6   3
+        \ 
+         12
+
+    Example :- In the real life Google Map is the good example of the Graphs  
+
+
+    Edges
+
+    1. Uni-Directional        2. Un-Directed       3. Bi-Directional
+
+       A------->B                A-------B            A   --------->  B
+                                                          <---------
+
+
+    Types
+
+           weighted                                      UnWeighted
+
+                9                                             9
+               /                                             /
+              /-1                                           /
+       1     4                                       1     4
+        \   / \3                                      \   / \
+      1  \ /5  \                                       \ /   \
+          6     3                                       6     3            
