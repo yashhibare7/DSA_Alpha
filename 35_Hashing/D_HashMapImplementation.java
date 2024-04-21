@@ -67,6 +67,7 @@ public class D_HashMapImplementation {
           return -1;
         }
 
+        @SuppressWarnings("unchecked")
         private void rehash() {
           LinkedList<Node> oldBuck[] = buckets;
           buckets = new LinkedList[N*2];
@@ -78,7 +79,7 @@ public class D_HashMapImplementation {
           //nodes -> add in bucket
           for(int i=0;i<oldBuck.length;i++){
             LinkedList<Node> ll = oldBuck[i];
-            for(int j=0;i<ll.size();j++){
+            for(int j=0;j<ll.size();j++){
               Node node = ll.remove();
               put(node.key, node.value);
             }
@@ -150,6 +151,10 @@ public class D_HashMapImplementation {
           }
           return keys;
         }
+
+        public boolean isEmpty(){
+          return n==0;
+        }
     }
     public static void main(String[] args) {
         HashMap<String, Integer> hm = new HashMap<>();
@@ -157,5 +162,12 @@ public class D_HashMapImplementation {
         hm.put("China", 150);
         hm.put("USA", 50);
         hm.put("Nepal", 5);
+
+        ArrayList<String> keys = hm.keySet();
+        for(String key : keys){
+          System.out.println(key);
+        }
+
+        System.out.println(hm.get("India"));
     }
 }
