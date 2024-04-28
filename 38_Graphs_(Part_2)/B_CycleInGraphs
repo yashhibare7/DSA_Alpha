@@ -1,0 +1,10 @@
+# Cycle in Graphs
+
+   Undirected --------> DFS
+                 |----> BFS
+                 |----> DSU (Disjoint Set Union)
+
+
+   Directed ----------> DFS
+                 |----> BFS
+                 |----> Topological sort (Kahn's Algorithm)
