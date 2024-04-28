@@ -12,3 +12,16 @@
           2 -------- 4           6
 
   - Depth First Search (DFS)
+      Keep going to the 1st neighbor
+
+          1 --------- 3
+         /           |  \
+        /            |    \
+       0             |      5
+        \            |    /   \
+         \           |  /       \
+          2 -------- 4           6      
+
+
+
+
