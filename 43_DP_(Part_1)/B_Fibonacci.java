@@ -1,3 +1,5 @@
+//Dynamic Programming = Memoization
+
 public class B_Fibonacci {
     public static int fib(int n, int f[]){
         if(n == 0 || n == 1){

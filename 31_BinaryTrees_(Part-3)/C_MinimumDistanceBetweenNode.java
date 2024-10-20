@@ -48,7 +48,7 @@ public class C_MinimumDistanceBetweenNode {
             return 0;
         }
 
-        int  leftDist = lcaDist(root.left,n);
+        int leftDist = lcaDist(root.left,n);
         int rightDist = lcaDist(root.right,n);
 
         if (leftDist == -1 && rightDist == -1) {

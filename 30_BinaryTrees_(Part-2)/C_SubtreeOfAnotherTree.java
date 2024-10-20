@@ -51,7 +51,7 @@ public class C_SubtreeOfAnotherTree {
         }
 
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
-    }
+    } 
     public static void main(String args[]){
         /*
          tree                       

@@ -17,7 +17,7 @@ public class StackUsingLinkedList {
 
         //push
         public static void push(int data){
-            Node newNode = new Node(data);
+            Node newNode = new Node(data);  
 
             if(isEmpty()){
                 head = newNode;

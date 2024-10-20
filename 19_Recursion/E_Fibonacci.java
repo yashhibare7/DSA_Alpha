@@ -3,8 +3,8 @@ public class E_Fibonacci {
         if(n == 0 || n == 1){
             return n;
         }
-        int fum1 = fibo(n-1);
-        int fum2 = fibo(n-2);
+        //int fum1 = fibo(n-1);
+        //int fum2 = fibo(n-2);
         int fn = fibo(n-1) + fibo(n-2);
         return fn;
     }

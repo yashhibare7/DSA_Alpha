@@ -3,7 +3,7 @@ public class D_SumOfFirstNum {
         if (n == 1){
             return 1;
         }
-        int fun1 = SumNum(n-1);
+        //int fun1 = SumNum(n-1);
         int fn = n + SumNum(n-1);
         return fn;
     }
